@@ -1,0 +1,10 @@
+DELIMITER $$
+  CREATE PROCEDURE verProdutos()
+  BEGIN
+     SELECT * FROM produtos;
+   END $$
+   DELIMITER;
+
+
+Usar o procedimento criado
+call verProdutos();
